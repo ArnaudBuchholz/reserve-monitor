@@ -1,0 +1,44 @@
+{
+  "name": "reserve-monitor",
+  "version": "1.0.0",
+  "description": "Advanced monitor for REserve",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnaudBuchholz/reserve-monitor.git"
+  },
+  "keywords": [
+    "REserve",
+    "log",
+    "monitor",
+    "server"
+  ],
+  "author": "Arnaud Buchholz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArnaudBuchholz/reserve-monitor/issues"
+  },
+  "homepage": "https://github.com/ArnaudBuchholz/reserve-monitor#readme",
+  "devDependencies": {
+    "mocha": "^8.1.0",
+    "standard": "^14.3.4"
+  },
+  "mocha": {
+    "diff": false,
+    "spec": [
+      "tests/mocha/*.test.js"
+    ]
+  },
+  "standard": {
+    "globals": [
+      "process",
+      "describe",
+      "it",
+      "before",
+      "after"
+    ]
+  }
+}
