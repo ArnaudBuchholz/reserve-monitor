@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ArnaudBuchholz/reserve-monitor#readme",
   "devDependencies": {
-    "mocha": "^8.1.0",
+    "mocha": "^8.4.0",
     "standard": "^14.3.4"
   },
   "mocha": {
